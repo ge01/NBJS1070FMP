@@ -1,10 +1,10 @@
 /****************************************************
 *           Using Parameters with Functions         *
 ****************************************************/
-function meatball(x) {
-  alert("i love " + x);
+function apples(one, two) {
+  document.write(one + " is better than " + two + "<br>");
 }
 
-meatball("bacon");
-meatball("natalie");
-meatball("good will hunting");
+apples("bucky", "hobart");
+apples("counting crow", "beiber");
+apples("strawberry", "coconut");
